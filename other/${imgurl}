@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>LOFTER（乐乎）</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="LOFTER(乐乎)是种随性的记录方式，可方便地分享照片、文字、音乐和视频。同时作为国内最优质的兴趣社区，汇聚超过千万的各类兴趣玩家，通过标签发现志趣相投的人。"/>
+
+<script>
+function jumpto(){
+var _target = 'http://www.lofter.com';
+if(_target.indexOf('?')>=0){
+if(_target.indexOf('urschecked=true')<0){
+_target = _target + '&urschecked=true';
+}
+} else{
+_target = _target + '?urschecked=true';
+}
+
+location.href = _target;
+}
+</script>
+</head>
+<body>
+<iframe onload="jumpto()" style="display:none" src="http://reg.163.com/crossdomain_all.do"></iframe>
+</body>
+</html>
